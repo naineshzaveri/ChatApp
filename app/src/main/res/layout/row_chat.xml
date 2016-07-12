@@ -20,14 +20,16 @@
         <ImageView
             android:id="@+id/ivProfileImg"
             android:layout_width="50dp"
+            android:layout_centerVertical="true"
             android:layout_height="50dp"
+            android:src="@drawable/ic_launcher"
             />
 
         <TextView
             android:id="@+id/txtName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textColor="@color/color_primary_text"
             android:layout_toRightOf="@id/ivProfileImg"
             android:textStyle="bold"
@@ -39,7 +41,7 @@
             android:layout_alignLeft="@id/txtName"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/txtName"
-            android:textSize="14sp"
+            android:textSize="16sp"
             android:textColor="@color/color_primary_text"
             android:text="message"/>
         <TextView
@@ -49,6 +51,7 @@
             android:layout_alignLeft="@id/txtMsg"
             android:layout_below="@id/txtMsg"
             android:textSize="12sp"
+            android:paddingTop="5dp"
             android:textColor="@color/color_secondary_text"
             android:text="timestamp"/>
 
