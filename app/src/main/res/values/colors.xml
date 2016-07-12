@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_primary">#27B898</color>
+    <color name="color_primary_dark">#129178</color>
+    <color name="color_primary_light">#CEE8DF</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_primary_text">#666666</color>
+    <color name="color_secondary_text">#999</color>
+    <color name="color_text_incomplete">#ff6666</color>
+    <color name="color_note_text">#BFBFBF</color>
+    <color name="color_third_text">#000</color>
+    <color name="color_divider">#f2f2f2</color>
+    <color name="color_grey">#f2f2f2</color>
+    <color name="color_grey_indicator">#E4E4E4</color>
+    <color name="color_light_grey">#E0E0E0</color>
+    <color name="status_bar_color">#999999</color>
+
+    <!--<color name="color_accent">#ff5252</color>-->
+    <color name="color_accent">#1abc9c</color>
+    <color name="color_btn_normal">#ee5351</color>
+    <color name="color_btn_pressed">#c62828</color>
+    <color name="black_overlay">#80000000</color>
+
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+
+    <color name="rounded_container_bg">#222222</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#646663</color>
+    <color name="color_blue">#2196f3</color>
+    <color name="white">#FFF</color>
+
+    <color name="golden">#ECB926</color>
+    <color name="yellow">#F7F3A9</color>
+
+    <color name="semi_transparent">#70000000</color>
+    <color name="transparent_half">#80000000</color>
+    <color name="semi_transparent_">#20000000</color>
+
+
+    <color name="header_color">#434343</color>
+    <color name="coackmark_background">#cc000000</color>
+    <color name="coackmark_dark_background">#E6000000</color>
+    <color name="apply_promo">#9CA7B0</color>
+    <color name="grey_border">#eaeaea</color>
+
+
+    <color name="reminder_red">#F05965</color>
+    <color name="gift_green">#1BBC9B</color>
+    <color name="family_blue">#5FACE0</color>
+
+    <!-- approved color -->
+    <color name="activity_background">#EBEAF1</color>
+    <color name="divider_line">#F4F4F4</color>
+    <color name="color_in_process">#F79B5E</color> <!-- 1 level for in process -->
+    <color name="color_in_rejected_cancel">#F05965</color> <!-- 2 level for cancel/reject -->
+    <color name="color_in_success">#27B898</color> <!-- 0 level for success -->
+    <color name="action_bar_color">#F9F9F9</color>
+    <color name="hint_color">#C0C0C0</color>
+
+    <color name="status_line">#edeced</color>
+
+    <color name="transparent">#00000000</color>
+
+</resources>
