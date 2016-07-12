@@ -81,7 +81,7 @@ public class GroupChatAdapter extends android.support.v7.widget.RecyclerView.Ada
             int size = (int) Math.ceil(Math.sqrt(MAX_WIDTH * MAX_HEIGHT));
 
             try {
-                com.squareup.picasso.Picasso.with(activity).load(android.net.Uri.parse(imagePath)).error(android.R.drawable.stat_notify_error).noFade().centerCrop().resize(size, size).into(imgProfilePic);
+               // com.squareup.picasso.Picasso.with(activity).load(android.net.Uri.parse(imagePath)).error(android.R.drawable.stat_notify_error).noFade().centerCrop().resize(size, size).into(imgProfilePic);
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -89,7 +89,6 @@ public class GroupChatAdapter extends android.support.v7.widget.RecyclerView.Ada
         }else{
             imgProfilePic.setImageResource(chat.nainesh.com.chatapp.R.drawable.ic_launcher);
         }
-        //    com.squareup.picasso.Picasso.with(activity).load(imagePath).noFade().into(imgProfilePic);
 
     }
 
