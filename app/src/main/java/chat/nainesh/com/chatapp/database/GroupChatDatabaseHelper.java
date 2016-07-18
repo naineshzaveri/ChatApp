@@ -2,7 +2,7 @@ package chat.nainesh.com.chatapp.database;
 
 public class GroupChatDatabaseHelper extends android.database.sqlite.SQLiteOpenHelper {
 
-    public static final String DATABASE_NAME = "haptikchat.db";
+    public static final String DATABASE_NAME = "groupchat.db";
 
 
     public static final int DATABASE_VERSION = 1; //
